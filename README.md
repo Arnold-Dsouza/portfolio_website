@@ -66,6 +66,21 @@ Deploy the `dist/` folder to any hosting service like Vercel, Netlify, or GitHub
 
 ## 🎨 Customization
 
+### Environment Variables Setup
+
+1. **Copy the example file:**
+   ```bash
+   cp .env.example .env.local
+   ```
+
+2. **Fill in your actual values:**
+   ```bash
+   VITE_CONTACT_EMAIL=your-email@example.com
+   VITE_LINKEDIN_URL=https://linkedin.com/in/your-profile
+   VITE_GITHUB_URL=https://github.com/your-username
+   # ... see .env.example for all variables
+   ```
+
 ### Update Your Information
 - Edit `src/Pages/About.jsx` for personal bio
 - Edit `src/Pages/Contact.jsx` for contact info
@@ -99,6 +114,16 @@ export const projects = [
 - **Behavior Trees Navigation** - ROS, C++, Python
 - **Virtual Agent** - Python, Rasa, Face Recognition
 - **WebCrafter** - React, TypeScript, AI Integration
+
+## 🔒 Security
+
+This project implements security best practices:
+
+- **Environment Variables**: All sensitive data is stored in environment variables
+- **No Hardcoded Secrets**: No API keys or credentials in source code
+- **Secure Defaults**: Safe fallback values for development
+
+For detailed security information, see [SECURITY.md](SECURITY.md).
 
 ## 🤝 Contributing
 

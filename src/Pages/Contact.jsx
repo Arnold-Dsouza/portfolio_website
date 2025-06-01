@@ -5,6 +5,7 @@ import SocialLinks from "../components/SocialLinks";
 import Swal from "sweetalert2";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { ENV_CONFIG } from "../config/env";
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -131,8 +132,8 @@ const ContactPage = () => {
               </div>
             </div>
 
-            <form 
-              action="https://formsubmit.co/arnolddsouza1999@gmail.com"
+            <form
+              action={ENV_CONFIG.FORMSUBMIT_ENDPOINT}
               method="POST"
               onSubmit={handleSubmit}
               className="space-y-6"

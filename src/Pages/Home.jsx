@@ -3,6 +3,7 @@ import { Github, Linkedin, Mail, ExternalLink, Instagram, Sparkles } from "lucid
 import { DotLottieReact } from '@lottiefiles/dotlottie-react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { ENV_CONFIG } from "../config/env"
 
 // Memoized Components
 const StatusBadge = memo(() => (
@@ -79,10 +80,11 @@ const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
 const WORDS = ["Autonomous System Student", "Tech Enthusiast"];
 const TECH_STACK = ["ROS", "Python", "C Programming", "Unity"];
+
 const SOCIAL_LINKS = [
-  { icon: Github, link: "https://github.com/Arnold-Dsouza" },
-  { icon: Linkedin, link: "https://www.linkedin.com/in/arnold-dsouza-a169b8195/" },
-  { icon: Instagram, link: "https://www.instagram.com/arnolddsouza1999?igsh=bWZveTRsbDJqc3p2" }
+  { icon: Github, link: ENV_CONFIG.SOCIAL_LINKS.GITHUB },
+  { icon: Linkedin, link: ENV_CONFIG.SOCIAL_LINKS.LINKEDIN },
+  { icon: Instagram, link: ENV_CONFIG.SOCIAL_LINKS.INSTAGRAM }
 ];
 
 const Home = () => {

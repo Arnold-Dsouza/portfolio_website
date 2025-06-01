@@ -6,6 +6,7 @@ import {
   Youtube,
   ExternalLink
 } from "lucide-react";
+import { ENV_CONFIG } from "../config/env";
 
 const socialLinks = [
   {
@@ -13,7 +14,7 @@ const socialLinks = [
     displayName: "Let's Connect",
     subText: "on LinkedIn",
     icon: Linkedin,
-    url: "https://www.linkedin.com/in/arnold-dsouza-a169b8195",
+    url: ENV_CONFIG.SOCIAL_LINKS.LINKEDIN,
     color: "#0A66C2",
     gradient: "from-[#0A66C2] to-[#0077B5]",
     isPrimary: true
@@ -23,7 +24,7 @@ const socialLinks = [
     displayName: "Instagram",
     subText: "@arnolddsouza1999",
     icon: Instagram,
-    url: "https://www.instagram.com/arnolddsouza1999/",
+    url: ENV_CONFIG.SOCIAL_LINKS.INSTAGRAM,
     color: "#E4405F",
     gradient: "from-[#833AB4] via-[#E4405F] to-[#FCAF45]",
     disabled: true
@@ -33,7 +34,7 @@ const socialLinks = [
     displayName: "Youtube",
     subText: "@arnolddsouza9287",
     icon: Youtube,
-    url: "https://www.youtube.com/@arnolddsouza9287",
+    url: ENV_CONFIG.SOCIAL_LINKS.YOUTUBE,
     color: "#FF0000",
     gradient: "from-[#FF0000] to-[#CC0000]"
   },
@@ -42,7 +43,7 @@ const socialLinks = [
     displayName: "Github",
     subText: "@arnold_dsouza",
     icon: Github,
-    url: "https://github.com/Arnold-Dsouza",
+    url: ENV_CONFIG.SOCIAL_LINKS.GITHUB,
     color: "#ffffff",
     gradient: "from-[#333] to-[#24292e]"
   },
