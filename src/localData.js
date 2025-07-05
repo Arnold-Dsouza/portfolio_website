@@ -8,7 +8,7 @@ export const projects = [
     Description: "A comprehensive framework for developing autonomous robotic systems using NVIDIA's Isaac Sim. This project implements agile development methodologies for robotics, featuring navigation, perception, manipulation, and human-robot interaction capabilities in simulated environments.",
     Img: "/project-images/IsaacSim.png",
     TechStack: ["Isaac Sim", "ROS2", "Python", "URDF", "State Machines"],
-    Link: "https://github.com/pallaviaithalnarayan/Agile-development-AST/blob/main/IsaacSim/robile_isaacSim.mp4",
+    Link: "https://github.com/user-attachments/assets/f0c3bb9f-8082-4821-9073-2518c6dd99b6",
     Github: "https://github.com/pallaviaithalnarayan/Agile-development-AST.git",
     Features: ["Simulation Environment", "Robot Navigation", "Object Manipulation", "Obstacle Avoidance", "Human-Robot Interaction", "Task Assignment"]
   },
@@ -18,7 +18,7 @@ export const projects = [
     Description: "A ROS2-based controller that enables a youbot to move towards a target pose by synchronizing linear and angular velocities. Includes obstacle detection and node lifecycle implementation.",
     Img: "/project-images/Youbot.png",
     TechStack: ["C++", "ROS2", "Gazebo", "Python"],
-    Link: "https://github.com/HBRS-SDP/ws23-direct-base-controller",
+    Link: "https://github.com/user-attachments/assets/1baa558e-a103-422a-a20c-ac795f1667bd",
     Github: "https://github.com/HBRS-SDP/ws23-direct-base-controller",
     Features: ["Node Lifecycle", "Dynamic Variable Configuration", "Synchronized Motion", "Obstacle Detection"]
   },
@@ -48,7 +48,7 @@ export const projects = [
     Description: "A virtual agent inspired by the Pepper robot, designed to assist students in finding accommodation using face recognition and conversational AI. The system remembers users by their faces and provides personalized housing search assistance.",
     Img: "/project-images/HCIR.png",
     TechStack: ["Python", "Rasa", "OpenCV", "Face Recognition"],
-    Link: "https://github.com/Arnold-Dsouza/Human-centered-interaction-in-robotics",
+    Link: "https://github.com/user-attachments/assets/8a58015a-6f84-4b47-a217-a3c280a28c83",
     Github: "https://github.com/Arnold-Dsouza/Human-centered-interaction-in-robotics",
     Features: ["Face Recognition", "Personalized Interaction", "Accommodation Search", "Conversational AI"]
   },
