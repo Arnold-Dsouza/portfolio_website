@@ -1,5 +1,7 @@
 // This file contains local data to replace Firebase functionality
 
+import { Link } from "lucide-react";
+
 // Sample projects data
 export const projects = [
   {
@@ -38,7 +40,7 @@ export const projects = [
     Description: "Implementation of behavior trees for autonomous mobile robot navigation using ROS. The project enables robust decision-making and task execution for robots in dynamic environments.",
     Img: "/project-images/robile.jpg",
     TechStack: ["ROS", "C++", "Python", "Behavior Trees"],
-    Link: "https://github.com/HBRS-AMR/ss23_assignment_behavior_trees-3",
+    Link: "https://github.com/user-attachments/assets/c384de5d-d9f5-44c7-b044-ec0f70c73ab6",
     Github: "https://github.com/HBRS-AMR/ss23_assignment_behavior_trees-3",
     Features: ["Autonomous Navigation", "Dynamic Obstacle Avoidance", "Task Sequencing", "Fallback Behaviors"]
   },
@@ -54,6 +56,16 @@ export const projects = [
   },
   {
     id: "6",
+    Title: "Embedded Systems Easy5AVR",
+    Description: "A comprehensive embedded systems project using AVR microcontrollers. Features implementation of various microcontroller programming concepts, sensor interfacing, and real-time system design for embedded applications.",
+    Img: "/project-images/lcd.jpg",
+    TechStack: ["C", "AVR", "Assembly", "Embedded C", "Microcontrollers"],
+    Link: "https://github.com/user-attachments/assets/e241327a-3fa3-472f-962a-384655966364",
+    Github: "https://github.com/Arnold-Dsouza/Embedded-Systems-Easy5AVR.git",
+    Features: ["Microcontroller Programming", "Sensor Interfacing", "Real-time Systems", "Hardware Abstraction", "Embedded C Development"]
+  },
+  {
+    id: "7",
     Title: "WebCrafter",
     Description: "An AI-powered web development tool that generates HTML, CSS, and JavaScript code from natural language descriptions. Perfect for quickly prototyping web components or learning web development.",
     Img: "/project-images/Webcrafter.png",
@@ -63,12 +75,13 @@ export const projects = [
     Features: ["AI-Powered Code Generation", "Multi-Language Output", "Instant Preview", "Download Options", "Dark/Light Theme", "Mobile Responsive"]
   },
   {
-    id: "7",
+    id: "8",
     Title: "Personal Portfolio",
     Description: "A responsive personal portfolio website showcasing skills, projects, and contact information.",
     Img: "/project-images/portfolio.jpg",
     TechStack: ["React", "TailwindCSS", "Vite"],
-    Link: "https://ekizr.github.io",
+    Link  : "https://portfolio-website-arnold-dsouzas-projects.vercel.app/",
+    // Link: "https://ekizr.github.io",
     Github: "https://github.com/EkiZR/portfolio",
     Features: ["Responsive design", "Dark mode", "Contact form"]
   }
