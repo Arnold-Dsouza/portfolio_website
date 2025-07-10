@@ -79,7 +79,7 @@ const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
 const WORDS = ["Autonomous System Student", "Tech Enthusiast"];
-const TECH_STACK = ["ROS", "Python", "C Programming", "Unity"];
+const TECH_STACK = ["Computer Vision", "Machine Learning", "Python", "C++", "ROS"];
 
 const SOCIAL_LINKS = [
   { icon: Github, link: ENV_CONFIG.SOCIAL_LINKS.GITHUB },
@@ -185,7 +185,7 @@ const Home = () => {
                 <p className="text-base md:text-lg text-gray-400 max-w-xl leading-relaxed font-light"
                   data-aos="fade-up"
                   data-aos-delay="1000">
-                  I specialize in designing and developing autonomous robotic systems, combining hardware expertise with software solutions to create intelligent machines that solve real-world problems..
+                  I specialize in developing intelligent autonomous systems by integrating simulation, real-time control, computer vision, and embedded hardware—creating robotics solutions that address real-world challenges in dynamic environments.
                 </p>
 
                 {/* Tech Stack */}
