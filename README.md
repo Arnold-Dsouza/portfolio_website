@@ -12,7 +12,7 @@ A modern, responsive portfolio website showcasing projects and skills in robotic
 - Contact form with notifications
 - Fast loading and optimized performance
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **React** - Frontend framework
 - **Vite** - Build tool
