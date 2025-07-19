@@ -2,9 +2,9 @@
 
 A modern, responsive portfolio website showcasing projects and skills in robotics and software development.
 
-🌐 **Live Demo**: [https://portfolio-website-m8g7titn4-arnold-dsouzas-projects.vercel.app](https://portfolio-website-m8g7titn4-arnold-dsouzas-projects.vercel.app)
+ **Live Demo**: [https://portfolio-website-m8g7titn4-arnold-dsouzas-projects.vercel.app](https://portfolio-website-m8g7titn4-arnold-dsouzas-projects.vercel.app)
 
-## ✨ Features
+##  Features
 
 - Responsive design for all devices
 - Smooth animations and transitions
@@ -21,7 +21,7 @@ A modern, responsive portfolio website showcasing projects and skills in robotic
 - **Material-UI** - UI components
 - **SweetAlert2** - Notifications
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -55,7 +55,7 @@ Make sure you have the following installed:
 4. **Open your browser:**
    Navigate to the URL displayed in your terminal (typically `http://localhost:5173`)
 
-## 📦 Build & Deploy
+##  Build & Deploy
 
 Create a production build:
 ```bash
@@ -64,7 +64,7 @@ npm run build
 
 Deploy the `dist/` folder to any hosting service like Vercel, Netlify, or GitHub Pages.
 
-## 🎨 Customization
+##  Customization
 
 ### Environment Variables Setup
 
@@ -106,7 +106,7 @@ export const projects = [
 - Add certificates to `public/certificate-images/`
 - Replace `public/Photo.jpg` with your photo
 
-## 📊 Featured Projects
+##  Featured Projects
 
 - **Autonomous Robot Simulation** - Isaac Sim, ROS2, Python
 - **Direct Base Controller** - C++, ROS2, Gazebo
@@ -115,7 +115,7 @@ export const projects = [
 - **Virtual Agent** - Python, Rasa, Face Recognition
 - **WebCrafter** - React, TypeScript, AI Integration
 
-## 🔒 Security
+##  Security
 
 This project implements security best practices:
 
@@ -125,14 +125,14 @@ This project implements security best practices:
 
 For detailed security information, see [SECURITY.md](SECURITY.md).
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
 4. Submit a pull request
 
-## 📞 Contact
+##  Contact
 
 Arnold D'Souza - [LinkedIn](https://www.linkedin.com/in/arnold-dsouza-a169b8195/)
 
