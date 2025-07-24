@@ -310,11 +310,19 @@ const Experience = () => {
 
   const workExperienceData = [
     {
+      period: "April 2024 - December 2024",
+      title: "Werkstudent",
+      organization: "Maschinenfabrik Wagner GmbH & Co. KG (PLARAD)",
+      location: "Much, Germany",
+      description: "Development of suitable algorithm for object recognition, leveraging OpenCV. Creation of bolt dataset for training. Optimization of the algorithm and inclusion of Aruco markers. Development of a smartphone app to run the real-time tool recommendation. Achieved a detection model with 87.2% precision and 82.2% recall.",
+      skills: ["OpenCV", "Computer Vision", "Machine Learning", "React", "Node.js", "Socket.IO"]
+    },
+    {
       period: "April 2024 - Feburary 2025",
-      title: "Research Assistant",
+      title: "Wissenschaftliche Hilfskraft",
       organization: "Hochschule Bonn-Rhein-Sieg",
       location: "Bonn, Germany",
-      description: "Designed & developed a low-cost power board for fast/slow heaters. Optimized AC frequency for heater control. Programmed MCU and tested with multiple heater configurations.",
+      description: "Proposing and designing a power board. Developing it as a low-cost power board for fast and slow heaters. Optimizing AC frequency for fast heaters control. Programing the MCU to control the power board. Testing power board functionality with fast and slow heater configuration.",
       skills: ["Hardware Design", "MCU Programming", "Power Electronics"]
     },
     {
@@ -347,7 +355,7 @@ const Experience = () => {
     {
       period: "April 2023 - Present",
       title: "Masters in Autonomous Systems",
-      organization: "Hochschule Bonn-Rhein-Sieg",
+      organization: "Hochschule Bonn-Rhein-Sieg + Erasmus+ (University of Split, Croatia)",
       location: "Sankt Augustin, Germany",
       description: "Coursework: Machine Learning, AI, Autonomous Mobile Robots, Human Robot Interaction, Software Development, Advanced Software Technology, Robot Learning, Mathematics of Robot Control.",
       skills: ["Machine Learning", "Artificial Intelligence", "Robotics", "HRI"],
@@ -361,24 +369,6 @@ const Experience = () => {
       description: "Coursework: Programming (C++, C#, Python), Matlab/Simulink, Applied Mathematics, DSP, Microprocessors, Electric Vehicles, Product Development. Class: 8.88/10 (First Class)",
       skills: ["Programming", "Electronics", "Mechanics", "Thermodynamics"],
       image: "/project-images/sspu.jpg"
-    },
-    {
-      period: "2017",
-      title: "Higher Secondary Certificate Examination (HSC)",
-      organization: "CES's Michael High School & Marceline Junior College",
-      location: "Mumbai, India",
-      description: "Grade: 73.69%",
-      skills: ["Science"],
-      image: "/project-images/college.jpg"
-    },
-    {
-      period: "2015",
-      title: "Secondary School Certificate (SSC)",
-      organization: "Holy Cross High School",
-      location: "Mumbai, India",
-      description: "Grade: 75.60%",
-      skills: [],
-      image: "/project-images/Hchs.jpg"
     }
   ];
 
