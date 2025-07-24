@@ -73,18 +73,18 @@ export const projects = [
     Link: "https://web-crafter-arnold-dsouzas-projects.vercel.app/",
     Github: "https://github.com/Arnold-Dsouza/WebCrafter.git",
     Features: ["AI-Powered Code Generation", "Multi-Language Output", "Instant Preview", "Download Options", "Dark/Light Theme", "Mobile Responsive"]
-  },
-  {
-    id: "8",
-    Title: "Personal Portfolio",
-    Description: "A responsive personal portfolio website showcasing skills, projects, and contact information.",
-    Img: "/project-images/portfolio.jpg",
-    TechStack: ["React", "TailwindCSS", "Vite"],
-    Link  : "https://portfolio-website-arnold-dsouzas-projects.vercel.app/",
-    // Link: "https://ekizr.github.io",
-    Github: "https://github.com/EkiZR/portfolio",
-    Features: ["Responsive design", "Dark mode", "Contact form"]
   }
+  // {
+  //   id: "8",
+  //   Title: "Personal Portfolio",
+  //   Description: "A responsive personal portfolio website showcasing skills, projects, and contact information.",
+  //   Img: "/project-images/portfolio.jpg",
+  //   TechStack: ["React", "TailwindCSS", "Vite"],
+  //   Link  : "https://portfolio-website-arnold-dsouzas-projects.vercel.app/",
+  //   // Link: "https://ekizr.github.io",
+  //   Github: "https://github.com/EkiZR/portfolio",
+  //   Features: ["Responsive design", "Dark mode", "Contact form"]
+  // }
 ];
 
 // Sample certificates data
