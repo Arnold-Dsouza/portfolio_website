@@ -151,28 +151,13 @@ export default function FullWidthTabs() {
 
   const fetchData = useCallback(async () => {
     try {
-      // Try to get data from localStorage first
-      const storedProjects = getFromLocalStorage("projects", null);
-      const storedCertificates = getFromLocalStorage("certificates", null);
-
-      // If data exists in localStorage, use it
-      if (storedProjects && storedCertificates) {
-        setProjects(storedProjects);
-        setCertificates(storedCertificates);
-      } else {
-        // Otherwise, fetch from our local data source
-        const [projectData, certificateData] = await Promise.all([
-          getProjects(),
-          getCertificates()
-        ]);
-
-        setProjects(projectData);
-        setCertificates(certificateData);
-
-        // Store in localStorage for future use
-        saveToLocalStorage("projects", projectData);
-        saveToLocalStorage("certificates", certificateData);
-      }
+      // Always fetch from localData.js
+      const [projectData, certificateData] = await Promise.all([
+        getProjects(),
+        getCertificates()
+      ]);
+      setProjects(projectData);
+      setCertificates(certificateData);
     } catch (error) {
       console.error("Error fetching data:", error);
     }
