@@ -79,7 +79,7 @@ const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
 const WORDS = ["Autonomous System Student", "Tech Enthusiast"];
-const TECH_STACK = ["Computer Vision", "Machine Learning", "Python", "C++", "ROS"];
+const TECH_STACK = ["Computer Vision", "Machine Learning", "Python", "C++", "ROS", "LLMs"];
 
 const SOCIAL_LINKS = [
   { icon: Github, link: ENV_CONFIG.SOCIAL_LINKS.GITHUB },

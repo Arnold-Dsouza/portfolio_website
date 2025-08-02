@@ -5,6 +5,16 @@ import { Link } from "lucide-react";
 // Sample projects data
 export const projects = [
   {
+    id: "0",
+    Title: "University App and Chatbot using RAG",
+    Description: "Developed an AI-powered chatbot for HBRS using Retrieval-Augmented Generation (RAG), integrating LangChain and ChromaDB to provide accurate, context-aware responses by retrieving relevant information from university websites and FAQs.",
+    Img: "/project-images/chatbot.png", // Add a suitable image to project-images folder if available
+    TechStack: ["Python", "LangChain", "ChromaDB", "RAG", "AI", "Chatbot"],
+    Link: "https://github.com/user-attachments/assets/96417326-0cd2-4419-b38b-a724972de327",
+    Github: "https://github.com/Arnold-Dsouza/Chatbot-using-RAG.git",
+    Features: ["Retrieval-Augmented Generation", "LangChain Integration", "ChromaDB Integration", "Context-Aware Responses", "University FAQ Support"]
+  },
+  {
     id: "1",
     Title: "Autonomous Robot Simulation with Isaac Sim",
     Description: "A comprehensive framework for developing autonomous robotic systems using NVIDIA's Isaac Sim. This project implements agile development methodologies for robotics, featuring navigation, perception, manipulation, and human-robot interaction capabilities in simulated environments.",
